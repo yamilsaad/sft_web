@@ -1,0 +1,26 @@
+@import '~hamburgers/dist/hamburgers.css';
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+}
