@@ -1,5 +1,9 @@
 @import '~hamburgers/dist/hamburgers.css';
 
+.nav-link:hover {
+    font-weight: bold;
+}
+
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
