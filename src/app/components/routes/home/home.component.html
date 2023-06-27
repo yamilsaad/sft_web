@@ -5,8 +5,8 @@
 </div>
 
 <div id="nosotros" class="nosotros container d-flex justify-content-center" data-aos="fade-down" data-aos-duration="1000">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure, quos culpa reiciendis, minus molestias aliquam
-        exercitationem enim doloremque eum ratione! Ipsa nesciunt aut provident ad nobis ratione quod quidem.</p>
+    <p>Somos un equipo dedicado a lograr la excelencia en cada proyecto y afianzar la confianza de tu empresa en
+        nosotros</p>
 </div>
 
 <app-profiles></app-profiles>
@@ -14,9 +14,32 @@
 
 
 <div id="webm" data-aos="fade-right" style="height: 500px; background-color: red;">
-
+    Brindamos a nuestros clientes distintas opciones de desarrollo ajustadas a sus necesidades
+    <br>
+    Integramos la mejor tecnología para crear experiencias de usuarios intuitivas y eficientes
 </div>
 
 <div id="sistems" data-aos="fade-right" style="height: 500px; background-color: red;">
-
+    Creamos Sistemas sólidos y escalables para tu empresa
 </div>
+
+
+<ngb-carousel
+	#carousel
+	[interval]="1000"
+	[pauseOnHover]="pauseOnHover"
+	[pauseOnFocus]="pauseOnFocus"
+    [showNavigationArrows]="showNavigationArrows"
+	[showNavigationIndicators]="showNavigationIndicators"
+>
+	<ng-template ngbSlide *ngFor="let img of images; index as i">
+		<div class="carousel-caption">
+			<h3>My slide {{i + 1}} title</h3>
+		</div>
+		<a href="https://www.google.fr/?q=Number+{{i+1}}" target="_blank" rel="nofollow noopener noreferrer">
+			<div class="picsum-img-wrapper">
+				<img [src]="img" alt="My image {{i + 1}} description" />
+			</div>
+		</a>
+	</ng-template>
+</ngb-carousel>
