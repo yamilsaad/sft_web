@@ -12,10 +12,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() { }
 
-  showNavigationArrows = false;
-	showNavigationIndicators = false;
-  pauseOnHover = false;
-  pauseOnFocus = false;
-	images = [1055, 194, 368].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
 }

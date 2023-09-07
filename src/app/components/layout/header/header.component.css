@@ -1,5 +1,9 @@
 @import '~hamburgers/dist/hamburgers.css';
 
+nav {
+    background-color: #13005A !important;
+}
+
 .nav-link:hover {
     font-weight: bold;
 }
@@ -7,6 +11,12 @@
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
+
+.nav-item a {
+    color: #ffffff;
+    font-size: 13px;
+}
+
 
 @media (min-width: 992px) {
     .navbar-toggler {

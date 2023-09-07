@@ -1,3 +1,9 @@
+.nosotros {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 70px;
+}
+
 .card-bg1,
 .card-bg2,
 .card-bg3 {
@@ -13,7 +19,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 125px 0 125px 0;
+    padding: 105px 0 105px 0;
 }
 
 .card {
@@ -21,18 +27,6 @@
     width: 250px;
     height: 350px;
     overflow: hidden;
-}
-
-.card-bg1 {
-    background-image: url(../../../../assets/sft2.svg);
-}
-
-.card-bg2 {
-    background-image: url(../../../../assets/titulo.svg);
-}
-
-.card-bg3 {
-    background-image: url(../../../../assets/sft2.svg);
 }
 
 .card-content {
@@ -79,12 +73,8 @@
     transition: background-color 0.4s ease-in-out;
 }
 
-.card:hover .card-bg {
-    background-color: #000000;
-}
-
 .card:hover .card-content {
-    background-color: #000000;
+    background-color: #13005A;
 }
 
 .card:hover .social-links a,
