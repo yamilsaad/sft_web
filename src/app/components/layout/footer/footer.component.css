@@ -22,7 +22,7 @@ h6,
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-a {
+li {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
@@ -61,11 +61,11 @@ a:hover {
     display: block;
 }
 
-.footer-20192 .links li a {
+.footer-20192 .links li {
     color: #666873;
 }
 
-.footer-20192 .links li a:hover {
+.footer-20192 .links li:hover {
     color: #fff;
 }
 

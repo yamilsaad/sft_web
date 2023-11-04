@@ -9,7 +9,7 @@ nav {
 }
 
 .navbar-toggler:focus {
-    box-shadow: none !important;
+    box-shadow: none;
 }
 
 .nav-item a {
@@ -33,8 +33,7 @@ nav {
     }
 
     .navbar-nav .nav-item {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin: 0 15px;
     }
 
 }

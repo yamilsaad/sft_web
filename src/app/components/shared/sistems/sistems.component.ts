@@ -11,6 +11,6 @@ export class SistemsComponent {
   showNavigationIndicators = false;
   pauseOnHover = false;
   pauseOnFocus = false;
-  images = [1055, 194, 368].map((n) => `https://picsum.photos/id/${n}/900/300`);
+  images = ['1', '2', '3', '4', '5'].map((n) => `assets/banner_soft/${n}.svg`);
 
 }

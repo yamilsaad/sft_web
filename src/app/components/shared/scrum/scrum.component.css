@@ -1,15 +1,36 @@
 /* Timeline Styles */
-.timeline {
+.scrum {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.timeline,
+.timeline__event,
+.timeline__event__icon,
+.timeline__event__date {
     display: flex;
+}
+
+.timeline,
+.timeline__event,
+.timeline__event__icon {
+    position: relative;
+}
+
+.timeline__event__icon,
+.timeline__event__date {
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline {
     flex-direction: column;
     margin: 20px auto;
-    position: relative;
 }
 
 .timeline__event {
     margin-bottom: 20px;
-    position: relative;
-    display: flex;
     margin: 40px 0;
     border-radius: 6px;
     align-self: center;
@@ -55,18 +76,12 @@
     font-size: 1.5rem;
     font-weight: 600;
     background: #9251ac;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     white-space: nowrap;
     padding: 0 20px;
     border-radius: 6px 0 0 6px;
 }
 
 .timeline__event__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #9251ac;
     padding: 20px;
     align-self: center;
@@ -78,7 +93,6 @@
         0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     padding: 40px;
     height: 40px;
-    position: relative;
 }
 
 .timeline__event__icon i {
