@@ -2,7 +2,7 @@
 .scrum {
     font-size: 13px;
     text-align: center;
-    padding-top: 70px;
+    margin-top: 70px;
 }
 
 .timeline,
@@ -206,7 +206,7 @@
 }
 
 /* Media Query */
-@media (max-width: 786px) {
+@media only screen and (max-width: 786px) {
     .timeline__event {
         flex-direction: column;
         align-self: center;
@@ -249,6 +249,35 @@
         margin: 0;
     }
 }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .scrum {
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1500px) {
+    .scrum {
+        margin-top: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 1500px) and (max-width: 1900px) {
+    .scrum {
+        margin-top: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 1910px) {
+    .scrum {
+        margin-top: 350px;
+    }
+}
+
 
 /* Keyframes */
 @keyframes fillLeft {

@@ -88,6 +88,7 @@ a:hover {
 
 .footer-20192 .social li a>span {
     position: absolute;
+    display: flex;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -122,4 +123,10 @@ a:hover {
 
 .footer-20192 .cta h3 {
     font-size: 20px;
+}
+
+@media only screen and (max-width: 786px) {
+    #contacto>div {
+        margin-top: 20px;
+    }
 }

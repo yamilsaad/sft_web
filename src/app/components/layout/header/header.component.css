@@ -17,6 +17,14 @@ nav {
     font-size: 13px;
 }
 
+.hamburger-inner,
+.hamburger-inner[_ngcontent-ng-c2735785797]::before,
+.hamburger-inner[_ngcontent-ng-c2735785797]::after,
+.hamburger.is-active[_ngcontent-ng-c2735785797] .hamburger-inner[_ngcontent-ng-c2735785797],
+.hamburger.is-active[_ngcontent-ng-c2735785797] .hamburger-inner[_ngcontent-ng-c2735785797]::before,
+.hamburger.is-active[_ngcontent-ng-c2735785797] .hamburger-inner[_ngcontent-ng-c2735785797]::after {
+    background-color: #fff;
+}
 
 @media (min-width: 992px) {
     .navbar-toggler {
