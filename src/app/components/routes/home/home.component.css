@@ -1,4 +1,9 @@
 .header {
     background-color: #13005A;
-    height: 600px;
+    height: 800px;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
 }

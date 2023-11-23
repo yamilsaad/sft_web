@@ -1,8 +1,17 @@
+.met {
+    padding: 70px 0 70px 0;
+    color: #13005A;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
 /* Timeline Styles */
 .scrum {
-    font-size: 13px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 70px;
 }
 
 .timeline,
@@ -47,10 +56,6 @@
 
 .timeline__event:nth-child(2n + 1) .timeline__event__content {
     border-radius: 6px 0 0 6px;
-}
-
-.timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
-    background: #f6a4ec;
 }
 
 .timeline__event__title {
@@ -99,18 +104,6 @@
     font-size: 32px;
 }
 
-.timeline__event__icon:before {
-    content: "";
-    width: 2px;
-    height: 110%;
-    background: #f6a4ec;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    z-index: -1;
-    transform: translateX(-50%);
-}
-
 .timeline .timeline__event:nth-child(2n) .timeline__event__icon:after,
 .timeline .timeline__event:nth-child(odd) .timeline__event__icon:after {
     content: "";
@@ -154,7 +147,6 @@
     background: #555ac0;
 }
 
-.timeline__event--type2 .timeline__event__icon:before,
 .timeline__event--type2 .timeline__event__icon:after {
     background: #87bbfe;
 }
@@ -177,17 +169,14 @@
     background-color: #24b47e;
 }
 
-.timeline__event--type3:nth-child(2n + 1) .timeline__event__icon:before,
 .timeline__event--type3:nth-child(2n + 1) .timeline__event__icon:after {
     background: #aff1b6;
 }
 
-.timeline__event--type3 .timeline__event__icon:before,
 .timeline__event--type3 .timeline__event__icon:after {
     background: #aff1b6;
 }
 
-.timeline__event--type2:nth-child(2n - 1) .timeline__event__icon:before,
 .timeline__event--type2:nth-child(2n - 1) .timeline__event__icon:after {
     background: #87bbfe;
 }
@@ -199,10 +188,6 @@
 
 .timeline__event--type3 .timeline__event__title {
     color: #24b47e;
-}
-
-.timeline__event:last-child .timeline__event__icon:before {
-    content: none;
 }
 
 /* Media Query */
@@ -224,7 +209,6 @@
         box-shadow: none;
     }
 
-    .timeline__event__icon:before,
     .timeline__event__icon:after {
         display: none;
     }
@@ -252,28 +236,28 @@
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .scrum {
+    .met {
         margin-top: 100px;
     }
 }
 
 
 @media only screen and (min-width: 1280px) and (max-width: 1500px) {
-    .scrum {
+    .met {
         margin-top: 200px;
     }
 }
 
 
 @media only screen and (min-width: 1500px) and (max-width: 1900px) {
-    .scrum {
+    .met {
         margin-top: 300px;
     }
 }
 
 
 @media only screen and (min-width: 1910px) {
-    .scrum {
+    .met {
         margin-top: 350px;
     }
 }
