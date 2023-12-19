@@ -1,3 +1,10 @@
+.sec-prof {
+    background: url(../../../../assets/profile_bg.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+
 .nos {
     padding-top: 70px;
     color: #13005A;
@@ -10,7 +17,7 @@
 .nosotros {
     font-size: 20px;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .card-bg1,
@@ -20,7 +27,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 10%;
     background-size: contain;
 }
 
@@ -35,8 +42,13 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     width: 250px;
-    height: 350px;
+    height: 450px;
     overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-content {
@@ -45,11 +57,12 @@
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     text-align: right;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    height: 210px;
 }
 
 .card-content h2 {
