@@ -1,5 +1,5 @@
 .sec-prof {
-    background: url(../../../../assets/profile_bg.png) no-repeat top center;
+    background: url(/assets/profiles/profile_bg.png) no-repeat top center;
     background-size: cover;
     position: relative;
     z-index: 10;

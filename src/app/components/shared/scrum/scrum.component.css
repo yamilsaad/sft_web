@@ -244,17 +244,22 @@
 
 @media only screen and (min-width: 1280px) and (max-width: 1500px) {
     .met {
-        margin-top: 200px;
+        margin-top: 10px;
     }
 }
 
 
-@media only screen and (min-width: 1500px) and (max-width: 1900px) {
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
     .met {
-        margin-top: 300px;
+        margin-top: 150px;
     }
 }
 
+@media only screen and (min-width: 1700px) and (max-width: 1900px) {
+    .met {
+        margin-top: 250px;
+    }
+}
 
 @media only screen and (min-width: 1910px) {
     .met {
